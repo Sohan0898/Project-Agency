@@ -6,7 +6,7 @@
 .nav-container{
 display: flex;
 justify-content: space-between;
-padding:10px 40px;
+padding:10px 70px;
 background-color: gray;
 align-items: center;
 }
@@ -14,7 +14,7 @@ align-items: center;
 .nav-menu{
     display: flex;
     list-style: none;
-    gap: 15px;
+    gap: 20px;
     font-size: 18px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -23,4 +23,55 @@ align-items: center;
 .item:hover{
     color: red;
     cursor: pointer;
+}
+
+
+.banner-container{
+    height: 100vh;
+    background-image: url("./image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.6));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.title{
+
+    font-size: 60px;
+    color: white;
+
+}
+
+.primary{
+    color:red;
+}
+
+.descrip{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.btn{
+    padding: 12px 20px;
+    border: none;
+}
+.btn-primary{
+    background-color: red;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: black;
 }
